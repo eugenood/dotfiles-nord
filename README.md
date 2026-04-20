@@ -1,8 +1,8 @@
-# dotfiles
+# dotfiles-nord
 
 Personal dotfiles for minimal Wayland setup.
 
-*A nord themed environment featuring a custom-made quickshell status bar and a custom-styled wofi launcher.*
+*A [nord](https://www.nordtheme.com/) themed hyprland environment featuring a custom-made quickshell status bar and a custom-styled wofi launcher.*
 
 <p align="center">
     <img src="screenshots/screenshot1.png" width="80%" alt="fastfetch">
@@ -34,14 +34,6 @@ These packages are required for the fonts and icons to render correctly in the s
 - `kitty`
 - `noto-fonts`
 - `ttf-jetbrains-mono-nerd`
-
-## Wallpaper
-
-[Daniel Leone](https://unsplash.com/photos/snowy-mountain-g30P1zcOzXo)
-
-## Color Scheme
-
-[Nord](https://www.nordtheme.com/)
 
 ## Firefox Theme
 
