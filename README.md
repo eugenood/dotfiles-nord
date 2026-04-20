@@ -2,22 +2,24 @@
 
 Personal dotfiles for minimal Wayland setup.
 
+*A nord themed environment featuring a custom-made quickshell status bar and a custom-styled wofi launcher.*
+
 <p align="center">
-    <img src="screenshots/screenshot1.png" width="70%" alt="fastfetch">
+    <img src="screenshots/screenshot1.png" width="80%" alt="fastfetch">
 </p>
 
 <p align="center">
-    <img src="screenshots/screenshot2.png" width="70%" alt="blank">
+    <img src="screenshots/screenshot2.png" width="80%" alt="blank">
 </p>
 
 <p align="center">
-    <img src="screenshots/screenshot3.png" width="70%" alt="blank">
+    <img src="screenshots/screenshot3.png" width="80%" alt="blank">
 </p>
 
 ## Applications
 
 - **Window Manager:** [hyprland](https://hypr.land/)
-- **Launcher** [wofi](https://github.com/SimplyCEO/wofi)
+- **Launcher:** [wofi](https://github.com/SimplyCEO/wofi)
 - **Status Bar:** [quickshell](https://quickshell.org/)
 - **Terminal:** [kitty](https://sw.kovidgoyal.net/kitty/)
 
