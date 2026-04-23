@@ -23,6 +23,7 @@ Variants {
             TitleWidget {}
             BrightnessWidget {}
             VolumeWidget {}
+            StockWidget {}
             CpuWidget {}
             BatteryWidget {}
             DateWidget {}

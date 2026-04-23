@@ -4,7 +4,7 @@ import Quickshell.Io
 Widget {
     property int percentage
     id: root
-    content: percentage + " 󰃠"
+    content: percentage.toString().padStart(2, "0") + " 󰃠"
     Process {
         command: ["udevadm", "monitor", "--subsystem-match=backlight", "--udev"]
         running: true

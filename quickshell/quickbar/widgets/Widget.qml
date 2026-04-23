@@ -16,7 +16,8 @@ WrapperRectangle {
     Text {
         text: root.content
         font.family: "JetBrainsMonoNL Nerd Font"
-        verticalAlignment: Text.AlignVCenter
+        font.pixelSize: 12
+        verticalAlignment: Text.AlignBottom
         elide: Text.ElideRight
         color: root.foregroundColor
     }

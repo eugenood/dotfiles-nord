@@ -3,7 +3,7 @@ import Quickshell.Services.UPower
 Widget {
     readonly property int percentage: Math.round(UPower.displayDevice?.percentage * 100) ?? 0
     readonly property bool discharging: UPower.displayDevice?.state === UPowerDeviceState.Discharging ?? false
-    content: percentage + " " + getIcon(percentage, discharging)
+    content: percentage.toString().padStart(2, "0") + " " + getIcon(percentage, discharging)
     foregroundColor: getColor(percentage, discharging)
     function getIcon(percentage, discharging) {
         if (!discharging) return "󰂄"
@@ -21,6 +21,6 @@ Widget {
     function getColor(percentage, discharging) {
         if (!discharging) return "#a3be8c"
         if (percentage <= 25) return "#bf616a"
-        return "#bf616a"
+        return "#d8dee9"
     }
 }

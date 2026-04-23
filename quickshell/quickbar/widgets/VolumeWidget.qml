@@ -3,7 +3,7 @@ import Quickshell.Services.Pipewire
 Widget {
     readonly property int percentage: Math.round(Pipewire.defaultAudioSink?.audio.volume * 100) ?? 0
     readonly property bool muted: Pipewire.defaultAudioSink?.audio.muted ?? true
-    content: percentage + " " + getIcon(percentage, muted)
+    content: percentage.toString().padStart(2, "0") + " " + getIcon(percentage, muted)
     foregroundColor: getColor(muted)
     PwObjectTracker {
         objects: [Pipewire.defaultAudioSink]
